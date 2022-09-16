@@ -1,6 +1,6 @@
 
 <?php $title = "Home"?>
-<?php include "./includes/header.php"?>
+<?php require("./Includes/header.php");?>
 <h1>Hello World - PHP Primer</h1>
 <br/>
 <?php
@@ -24,4 +24,4 @@
 <button type="button" class="btn btn-outline-dark">CLICK ME!</button>
 <button type="button" class="btn btn-outline-primary">CLICK ME!</button>
 <button type ="button" class="btn btn-outline-success">CLICK ME!</button>
-<?php require "./includes/footer.php"?>
+<?php require ("./includes/footer.php");?>
