@@ -3,7 +3,7 @@ const navLinks = document.querySelectorAll("ul li a").
 forEach(link =>{
     if(activePage === "/")
     {
-        if(link.href === "/index.php"){
+        if(link.href.includes("/index.php")){
             link.classList.add("active");
         }
     }
