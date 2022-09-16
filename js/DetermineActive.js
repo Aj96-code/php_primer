@@ -7,8 +7,11 @@ forEach(link =>{
             link.classList.add("active");
         }
     }
-    else if(link.href.includes(`${activePage}`)){
-        link.classList.add("active");
+    else
+    {
+        if(link.href.includes(`${activePage}`)){
+            link.classList.add("active");
+        }
     }
 });
 
