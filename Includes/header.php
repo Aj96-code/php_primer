@@ -42,3 +42,6 @@
                 href="Function.php">Simple Function</a>
         </li>
     </ul>
+   </div>
+</body>
+<html>
