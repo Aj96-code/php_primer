@@ -1,6 +1,6 @@
 
 <?php $title = "While Do While Loop"?>
-<?php include "includes/header.php"?>
+<?php require("./Includes/header.php")?>
     <h1><?php echo $title?></h1>
     <?php 
         $grade = 0;
@@ -29,4 +29,4 @@
         }while($grade < 10);
         echo "<p style = 'color: green;'>EXIT LOOP</p>";
     ?>
-<?php require "includes/footer.php"?>
+<?php require ("./Includes/footer.php");?>

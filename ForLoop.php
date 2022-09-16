@@ -1,6 +1,6 @@
 
 <?php $title = "For Loop"?>
-<?php include "includes/header.php"?>
+<?php require ("./Includes/header.php");?>
     <h1><?php echo $title?></h1>
     <?php 
         //* For Loops
@@ -14,4 +14,4 @@
            
         }
     ?>
-<?php require "includes/footer.php"?>
+<?php require ("./Includes/footer.php");?>

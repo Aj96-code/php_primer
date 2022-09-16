@@ -1,6 +1,6 @@
 
 <?php $title = "String Manipulation"?>
-<?php include "includes/header.php"?>
+<?php require("./Includes/header.php");?>
         <h1><?php echo $title?></h1>
         <?php
             $combine = "stand run jump"; 
@@ -40,4 +40,4 @@
                 "<br/>";
 
         ?>
-<?php require "includes/footer.php"?>
+<?php require ("./Includes/footer.php");?>

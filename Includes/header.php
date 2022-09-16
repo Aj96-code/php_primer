@@ -17,7 +17,7 @@
         </li>
         <li class="nav-item">
             <a class="nav-link " 
-                href="array.php">Simple Array and Printouts</a>
+                href="Array.php">Simple Array and Printouts</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="ForLoop.php">Simple for Loop</a>

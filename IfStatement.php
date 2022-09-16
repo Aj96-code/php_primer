@@ -1,6 +1,6 @@
 
 <?php $title = "IF Statement"?>
-<?php include "includes/header.php"?>
+<?php require ("./Includes/header.php");?>
     <h1><?php echo $title?></h1>
     <?php
 
@@ -38,4 +38,4 @@
                 "<h2 style='color: red;'>YOU HAVE FAILED<h2>";
         }
     ?>
-<?php require "includes/footer.php"?>
+<?php require ("./Includes/footer.php");?>

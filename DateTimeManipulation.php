@@ -1,6 +1,6 @@
 
 <?php $title = "Date Time Manipulations"?>
-<?php include "includes/header.php"?>
+<?php require ("./Includes/header.php");?>
     <h1><?php echo $title?></h1>
     <?php
         $dateNow = getdate();
@@ -17,4 +17,4 @@
         print "Today is ";
         print date("j of F Y, \a\\t g.i a", $timeNow);
     ?>
-<?php require "includes/footer.php"?>
+<?php require ("./Includes/footer.php");?>

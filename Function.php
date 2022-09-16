@@ -1,6 +1,6 @@
 
 <?php $title = "Function"?>
-<?php include "includes/header.php"?>
+<?php require("./Includes/header.php");?>
     <h1><?php echo $title?></h1>
     <?php 
         //* Defining a Function
@@ -41,4 +41,4 @@
 
         echo $return_value . "<br/>";
     ?>
-<?php require "includes/footer.php"?>
+<?php require ("./Includes/footer.php");?>
